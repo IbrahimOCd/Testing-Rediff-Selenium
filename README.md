@@ -84,21 +84,11 @@ This project is a Selenium-based automation framework designed to test Rediff's 
 
 ## How to Run Tests
 
-### **Using TestNG XML**
-1. Open any of the predefined TestNG XML files:
-   - `testng.xml`
-   - `PortfolioSuite.xml`
-   - `StockManage.xml`
-2. Right-click on the XML file and select **Run As > TestNG Suite**.
 
 ### **Command-Line Execution**
 1. Use Maven to run tests:
    ```bash
-   mvn test -DsuiteXmlFile=<suite-file.xml>
-   ```
-   Example:
-   ```bash
-   mvn test -DsuiteXmlFile=PortfolioSuite.xml
+   mvn exec:java
    ```
 
 ---
